@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Swithcer</title>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <img
+          id="image"
+          width="600"
+          height="600"
+          src="image1.jpg"
+          alt="Messi and Ronaldo"
+        />
+      </div>
+
+      <button onclick="button1Clicked()">Button 1</button>
+      <button onclick="button2Clicked()">Button 2</button>
+    </div>
+    <script>
+      function button1Clicked() {
+        document.getElementById("image").src = "image1.jpg";
+      }
+
+      function button2Clicked() {
+        document.getElementById("image").src = "image2.jpg";
+      }
+    </script>
+  </body>
+</html>

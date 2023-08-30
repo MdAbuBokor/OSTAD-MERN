@@ -1,22 +1,20 @@
 const http = require("node:http");
-const url = require("url");
 const fs = require("fs");
 
 const server = http.createServer((req, res) => {
-  let pathname = url.parse(req.url).pathname;
-  if (pathname == "/") {
+  if (req.url == "/") {
     res.writeHead(200, { "Content-Type": "text/html" });
     res.write("This is Home Page");
     res.end();
-  } else if (pathname == "/about") {
+  } else if (req.url == "/about") {
     res.writeHead(200, { "Content-Type": "text/html" });
     res.write("This is About Page");
     res.end();
-  } else if (pathname == "/contact") {
+  } else if (req.url == "/contact") {
     res.writeHead(200, { "Content-Type": "text/html" });
     res.write("This is Contact Page");
     res.end();
-  } else if (pathname == "/file-write") {
+  } else if (req.url == "/file-write") {
     res.writeHead(200, { "Content-Type": "text/html" });
     fs.writeFile("demo.text", "hello world", (err) => {
       if (err) {

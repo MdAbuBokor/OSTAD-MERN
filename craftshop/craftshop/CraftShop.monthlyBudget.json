@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "64711dfe214d0bbe4c116cef"
+  },
+  "category": "food",
+  "budget": 400,
+  "spent": 450
+},
+{
+  "_id": {
+    "$oid": "64711dfe214d0bbe4c116cf0"
+  },
+  "category": "drinks",
+  "budget": 100,
+  "spent": 150
+},
+{
+  "_id": {
+    "$oid": "64711dfe214d0bbe4c116cf1"
+  },
+  "category": "clothes",
+  "budget": 100,
+  "spent": 50
+},
+{
+  "_id": {
+    "$oid": "64711dfe214d0bbe4c116cf2"
+  },
+  "category": "misc",
+  "budget": 500,
+  "spent": 300
+},
+{
+  "_id": {
+    "$oid": "64711dfe214d0bbe4c116cf3"
+  },
+  "category": "travel",
+  "budget": 200,
+  "spent": 650
+}]

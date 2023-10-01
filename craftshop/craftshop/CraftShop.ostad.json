@@ -1,0 +1,80 @@
+[{
+  "_id": {
+    "$oid": "6515a9b9966194a588c0045e"
+  },
+  "name": "Ultra Comfort Sneakers",
+  "price": 89.99,
+  "brand": "SuperWalk"
+},
+{
+  "_id": {
+    "$oid": "6515a9b9966194a588c0045f"
+  },
+  "name": "Classic Jeans",
+  "price": 49.99,
+  "brand": "DenimCo"
+},
+{
+  "_id": {
+    "$oid": "6515a9b9966194a588c00460"
+  },
+  "name": "Sporty Water Bottle",
+  "price": 19.99,
+  "brand": "HydraFlow"
+},
+{
+  "_id": {
+    "$oid": "6515a9b9966194a588c00461"
+  },
+  "name": "Leather Wallet",
+  "price": 34.99,
+  "brand": "CashCarry"
+},
+{
+  "_id": {
+    "$oid": "6515a9b9966194a588c00462"
+  },
+  "name": "Silk Scarf",
+  "price": 24.99,
+  "brand": "EleganceNow"
+},
+{
+  "_id": {
+    "$oid": "6515a9b9966194a588c00463"
+  },
+  "name": "Wireless Headphones",
+  "price": 129.99,
+  "brand": "SoundScape"
+},
+{
+  "_id": {
+    "$oid": "6515a9b9966194a588c00464"
+  },
+  "name": "Professional Camera",
+  "price": 599.99,
+  "brand": "PhotoPros"
+},
+{
+  "_id": {
+    "$oid": "6515a9b9966194a588c00465"
+  },
+  "name": "Elegant Watch",
+  "price": 299.99,
+  "brand": "TimelessBeauty"
+},
+{
+  "_id": {
+    "$oid": "6515a9b9966194a588c00466"
+  },
+  "name": "Yoga Mat",
+  "price": 39.99,
+  "brand": "BalanceMasters"
+},
+{
+  "_id": {
+    "$oid": "6515a9b9966194a588c00467"
+  },
+  "name": "Stylish Sunglasses",
+  "price": 89.99,
+  "brand": "VisionElegance"
+}]

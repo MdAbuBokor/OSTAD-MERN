@@ -1,0 +1,45 @@
+[{
+  "_id": {
+    "$oid": "647781088b6c290a6bfe68a9"
+  },
+  "name": "Rain",
+  "designation": "Sub Asst Engineer",
+  "salary": 32000,
+  "city": "Rangpur"
+},
+{
+  "_id": {
+    "$oid": "647781088b6c290a6bfe68aa"
+  },
+  "name": "Rakib",
+  "designation": "Engineer",
+  "salary": 40000,
+  "city": "Rangpur"
+},
+{
+  "_id": {
+    "$oid": "647781088b6c290a6bfe68ab"
+  },
+  "name": "Jamil",
+  "designation": "Engineer",
+  "salary": 40000,
+  "city": "Khulna"
+},
+{
+  "_id": {
+    "$oid": "647781088b6c290a6bfe68ac"
+  },
+  "name": "Kamal",
+  "designation": "Engineer",
+  "salary": 60000,
+  "city": "Sylet"
+},
+{
+  "_id": {
+    "$oid": "647781088b6c290a6bfe68ad"
+  },
+  "name": "Akmal",
+  "designation": "Sr Engineer",
+  "salary": 70000,
+  "city": "Dhaka"
+}]
